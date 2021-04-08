@@ -31,7 +31,7 @@ class NormalizedStr:
         that can be substituted directly into the python interpreter
         to reproduce an equivalent object.
         '''
-        return 'NormalizedStr('+repr(self.text)+', '+repr(self.normal_form)+')'
+        return 'NormalizedStr(' + repr(self.text) + ', ' + repr(self.normal_form) + ')'
 
     def __str__(self):
         '''

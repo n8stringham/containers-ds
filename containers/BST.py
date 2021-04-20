@@ -213,6 +213,7 @@ class BST(BinaryTree):
         else:
             return BST._find_largest(self.root)
 
+    @staticmethod
     def _find_largest(node):
         '''
         This is a helper function for find_largest and not

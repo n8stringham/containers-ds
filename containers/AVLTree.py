@@ -60,7 +60,7 @@ class AVLTree(BST):
                         AVLTree._balance_factor(node) in [0, -1, 1],
                         AVLTree._is_avl_satisfied(node.left),
                         AVLTree._is_avl_satisfied(node.right),
-                        ])
+                      ])
 
     @staticmethod
     def _left_rotate(node):

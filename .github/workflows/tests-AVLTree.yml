@@ -27,5 +27,3 @@ jobs:
       - name: Run tests
         run: |
           python -m pytest tests/test_AVLTree.py
-
-
